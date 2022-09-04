@@ -12,7 +12,12 @@ class ApplicationController < Sinatra::Base
    Rental.find_by_id(params[:id]).to_json
    end
 
-  
+   post '/rentals' do
+    Rental.create(params).to_json
+    Rental.last.to_json
+   end
+
+ 
 
  
 
