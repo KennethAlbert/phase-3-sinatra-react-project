@@ -8,7 +8,11 @@ class ApplicationController < Sinatra::Base
     Rental.all.to_json
    end
   
-   
+   get "/rentals/:id" do
+   Rental.find_by_id(params[:id]).to_json
+   end
+
+  
 
  
 
