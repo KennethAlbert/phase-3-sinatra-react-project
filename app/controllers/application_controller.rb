@@ -23,7 +23,9 @@ class ApplicationController < Sinatra::Base
     update_rental.to_json
    end
 
- 
+   delete '/rentals/:id' do
+    Rental.delete_by(params).to_json
+   end
 
  
 
