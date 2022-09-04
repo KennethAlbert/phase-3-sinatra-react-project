@@ -17,6 +17,12 @@ class ApplicationController < Sinatra::Base
     Rental.last.to_json
    end
 
+   patch '/rentals/:id' do
+    update_rental=Rental.find_by_id(params[:id])
+    update_rental.update(params)
+    update_rental.to_json
+   end
+
  
 
  
