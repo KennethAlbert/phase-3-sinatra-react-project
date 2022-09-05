@@ -16,7 +16,7 @@ owner= Owner.create(
 name: Faker::Name.first_name,
 email: Faker::Internet.email,
 tel: Faker::PhoneNumber.cell_phone_in_e164,
-password_digest: Faker::Internet.password(min_length: 4)
+password: Faker::Internet.password(min_length: 4)
 )
 
 
