@@ -2,10 +2,10 @@ class RentalsController < ApplicationController
     set :default_content_type, 'application/json'
 
 # Add your routes here
-#get "/rentals" do
+get "/rentals" do
     #binding.pry
- #   serialize(Rental.all)
- #  end
+   serialize(Rental.all)
+  end
   
  #  get "/rentals/:id" do
  #  serialize(Rental.find_by_id(params[:id]))
@@ -51,11 +51,11 @@ class RentalsController < ApplicationController
 
 
   
-#private
+private
 
-#def  serialize(object)
-#object.to_json(include: :owner)
+def  serialize(object)
+object.to_json(include: :owner)
 
-#end
+end
 
 end
