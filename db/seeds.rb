@@ -8,6 +8,7 @@ Owner.destroy_all
 Rental.destroy_all
 
 
+
 puts "Destroying Rental..."
 # Seed your database here
 
