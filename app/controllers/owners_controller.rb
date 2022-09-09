@@ -17,18 +17,19 @@ post "/signup" do
     owner.to_json
    end 
   end
-
- #get "/login/:email" do
-  #owner=Owner.find_by_email(params[:email])
-
-  #if owner
-  # owner.to_json(include: [:rentals])
- #  else
-  # status 401
- #  { errors: "user doesn't exist" }.to_json
- #end
   
-#end
+
+ get "/login/:email" do
+  owner=Owner.find_by_email(params[:email])
+
+  if owner
+   owner.to_json(include: [:rentals])
+   else
+   status 401
+   { errors: "user doesn't exist" }.to_json
+ end
+  
+end
 
 
 
