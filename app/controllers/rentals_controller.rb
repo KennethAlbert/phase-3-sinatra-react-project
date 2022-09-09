@@ -27,14 +27,13 @@ patch '/rentals/:id' do
      puts update_rental.to_json  
 end
 
-   #patch '/rentals/update/:id' do
+patch '/rentals/update/:id' do
+  update_rental=Rental.find_by_id(params[:id])
+  update_rental.update(params)
+  update_rental.to_json
+  puts update_rental.to_json
    
-    #update_rental=Rental.find_by_id(params[:id])
-    #update_rental.update(params)
-    # update_rental.to_json
-    # puts update_rental.to_json
-   
-   #end
+end
 
 
 
