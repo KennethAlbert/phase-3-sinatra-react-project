@@ -36,13 +36,11 @@ patch '/rentals/update/:id' do
 end
 
 
-
-   
-   #delete '/rentals/:id' do
-   # rental = Rental.find_by_id(params[:id])
-   # rental.destroy
-   # rental.to_json
-   #end
+delete '/rentals/:id' do
+  rental = Rental.find_by_id(params[:id])
+  rental.destroy
+  rental.to_json
+end
 
 
 
