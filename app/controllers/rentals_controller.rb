@@ -5,11 +5,11 @@ class RentalsController < ApplicationController
 get "/rentals" do
     #binding.pry
    serialize(Rental.all)
-  end
+end
   
- #  get "/rentals/:id" do
- #  serialize(Rental.find_by_id(params[:id]))
-#   end
+get "/rentals/:id" do
+   serialize(Rental.find_by_id(params[:id]))
+end
 
  #  post '/rentals' do
  #   rental=Rental.new(params)
