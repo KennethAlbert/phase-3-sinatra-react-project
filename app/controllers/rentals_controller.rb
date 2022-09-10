@@ -20,9 +20,7 @@ end
 
 patch '/rentals/:id' do
     update_rental=Rental.find_by_id(params[:id])
-    update_rental.update(
-        available: params[:available]
-      )
+    update_rental.update(available: params[:available])
      update_rental.to_json
      puts update_rental.to_json  
 end
