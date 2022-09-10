@@ -4,8 +4,7 @@ puts "🌱 Seeding spices..."
 
 puts "Destroying  Owner...."
 
-Owner.destroy_all 
-Rental.destroy_all
+
 
 
 
