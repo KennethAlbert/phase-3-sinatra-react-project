@@ -12,12 +12,12 @@ Rental.destroy_all
 puts "Destroying Rental..."
 # Seed your database here
 
-5.times do
+10.times do
 owner= Owner.create(
 name: Faker::Name.first_name,
 email: Faker::Internet.email,
 tel: Faker::PhoneNumber.cell_phone_in_e164,
-password: Faker::Internet.password(min_length: 4)
+password: Faker::Internet.password(min_length: 8)
 )
 
 
