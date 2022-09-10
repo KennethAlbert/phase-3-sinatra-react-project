@@ -35,7 +35,7 @@ gem "sinatra-activerecord", "~> 2.0"
 gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a SQLite3 database
-gem "sqlite3", "~> 1.4"
+
 
 
 gem "shotgun"
@@ -45,6 +45,7 @@ gem "require_all", "~> 3.0"
 
 # These gems will only be used when we are running the application locally
 group :development do
+  gem "sqlite3", "~> 1.4"
   gem "pry", "~> 0.14.1"
 
   # Automatically reload when there are changes
