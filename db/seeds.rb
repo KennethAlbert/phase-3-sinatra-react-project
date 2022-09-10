@@ -11,7 +11,7 @@ puts "Destroying  Owner...."
 puts "Destroying Rental..."
 # Seed your database here
 
-10.times do
+5.times do
 owner= Owner.create(
 name: Faker::Name.first_name,
 email: Faker::Internet.email,
