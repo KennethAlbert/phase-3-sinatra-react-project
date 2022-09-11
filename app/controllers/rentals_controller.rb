@@ -4,7 +4,7 @@ class RentalsController < ApplicationController
 # Add your routes here
 get "/rentals" do
     #binding.pry
-   serialize(Rental.all.order("id DESC"))
+   serialize(Rental.all.order("id ASC"))
 end
   
 get "/rentals/:id" do
