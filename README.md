@@ -1,7 +1,7 @@
 # Phase 3 Project 
 
 ## Project & Personal Details
-Name:Kenneth Gichuka.
+**Name:** Kenneth Gichuka.
 
 **Project Name:** Find A Motel.
 
@@ -14,7 +14,7 @@ Name:Kenneth Gichuka.
 
 ## Available Scripts
 
-=>Backend
+**Backend:**
 
 ```console
 $ bundle exec rake server
@@ -25,7 +25,7 @@ $ bundle exec shotgun
 ```
 
 
-=>Frontend
+**Frontend:**
 
 ```console
  npm run build
