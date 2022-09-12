@@ -9,7 +9,7 @@
 
 **Backend host:** http://find-a-motel.herokuapp.com/rentals
 
-**Github frontend:** **link:** https://github.com/KennethAlbert/phase-2-project
+**Github frontend:** **link:** https://github.com/KennethAlbert/phase-3-react-frontend
  
 
 ## Available Scripts
