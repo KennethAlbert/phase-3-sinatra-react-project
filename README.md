@@ -14,18 +14,18 @@ Github frontend link:https://github.com/KennethAlbert/phase-2-project
 
 ## Available Scripts
 
--Backend
+=>Backend
 
 ```console
 $ bundle exec rake server
 $ bundle exec rake db:create
 $ bundle exec rake db:create_migration
 $ bundle exec rake db:seed
-$ bundle exe shotgun
+$ bundle exec shotgun
 ```
 
 
--Frontend
+=>Frontend
 
 ```console
  npm run build
@@ -33,10 +33,18 @@ $ bundle exe shotgun
 
 ```
 
+## Technologies Used
+### Backend
+Ruby,Procfile,sinatra,sqlite3,PostgreSQL
+
+### Frontend
+HTML,CSS,JAVASCRIPT & REACT
 
 ## Introduction
 The project consist of two different repositories the backend and the frontend.
-The front
+The frontend will be responsible for manipulating data hosted on the backend.
+
+The project itself is a platform that allows tenants to view and book properties that interest them,at the same time landlords can login into their accounts and delete,add or update any of their properties
 
 ## Requirements
 
