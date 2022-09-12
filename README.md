@@ -42,9 +42,9 @@ HTML,CSS,JAVASCRIPT & REACT.
 
 ## Introduction
 The project consist of two different repositories the backend and the frontend.
-The frontend will be responsible for manipulating data hosted on the backend.
+The frontend will be responsible for manipulating data hosted In the backend.
 
-The project itself is a platform that allows tenants to view and book properties that interest them,at the same time landlords can login into their accounts and delete,add or update any of their properties.
+The project itself is a platform that allows tenants to view and book properties that interest them,at the same time landlords can login/signup into their accounts and delete,add or update any of their properties.
 
 ## Requirements
 
