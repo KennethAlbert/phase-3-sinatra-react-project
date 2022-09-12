@@ -1,19 +1,42 @@
-# Phase 3 Project Guidelines
+# Phase 3 Project 
 
-## Learning Goals
+## Project & Personal Details
+Name:Kenneth Gichuka.
 
-- Build a web basic API with Sinatra and Active Record to support a React
-  frontend
+Project Name:Find A Motel.
+
+Project Site:https://find-a-motel.netlify.app/
+
+Backend host: http://find-a-motel.herokuapp.com/rentals
+
+Github frontend link:https://github.com/KennethAlbert/phase-2-project
+ 
+
+## Available Scripts
+
+-Backend
+
+```console
+$ bundle exec rake server
+$ bundle exec rake db:create
+$ bundle exec rake db:create_migration
+$ bundle exec rake db:seed
+$ bundle exe shotgun
+```
+
+
+-Frontend
+
+```console
+ npm run build
+ npm start
+
+```
+
 
 ## Introduction
-
-Congrats on getting through all the material for Phase 3! Now's the time to put
-it all together and build something from scratch to reinforce what you know and
-expand your horizons.
-
-The focus of this project is **building a Sinatra API backend** that uses
-**Active Record** to access and persist data in a database, which will be used
-by a separate **React frontend** that interacts with the database via the API.
+The project consist of two different repositories the backend and the frontend.
+The front
 
 ## Requirements
 
