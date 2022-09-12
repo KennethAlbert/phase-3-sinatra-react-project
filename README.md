@@ -3,13 +3,13 @@
 ## Project & Personal Details
 Name:Kenneth Gichuka.
 
-Project Name:Find A Motel.
+**Project Name:**Find A Motel.
 
-Project Site:https://find-a-motel.netlify.app/
+**Project Site:**https://find-a-motel.netlify.app/
 
-Backend host: http://find-a-motel.herokuapp.com/rentals
+**Backend host:** http://find-a-motel.herokuapp.com/rentals
 
-Github frontend link:https://github.com/KennethAlbert/phase-2-project
+**Github frontend:** link:https://github.com/KennethAlbert/phase-2-project
  
 
 ## Available Scripts
